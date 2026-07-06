@@ -1,6 +1,6 @@
-# Vector Brief Website
+# GM Solutions Website
 
-Static marketing website for Vector Brief, a human-verified travel intelligence briefing product for high-risk areas.
+Static marketing website for GM Solutions, a human-verified travel intelligence briefing product for high-risk areas.
 
 ## Preview locally
 
@@ -18,4 +18,4 @@ This site can be published with GitHub Pages from the repository root. Use `inde
 
 ## Asset note
 
-The hero image was generated for this project from the provided moodboard direction and is saved at `assets/vector-brief-hero.png`.
+The hero image was generated for this project from the provided moodboard direction and is saved at `assets/gm-solutions-hero.png`.
