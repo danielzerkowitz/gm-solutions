@@ -1,6 +1,6 @@
 # GM Solutions Website
 
-Static marketing website for GM Solutions B.V. — medical and logistics solutions and training for austere, complex and high-risk environments (close protection, humanitarian and special assignment missions), based in The Hague, Netherlands.
+Static marketing website for GM Solutions B.V.: medical and logistics solutions and training for austere, complex and high-risk environments (close protection, humanitarian and special assignment missions), based in The Hague, Netherlands.
 
 ## Preview locally
 

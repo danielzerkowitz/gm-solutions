@@ -7,7 +7,7 @@ form.addEventListener("submit", async (event) => {
   event.preventDefault();
 
   if (form.action.includes("YOUR_FORM_ID")) {
-    setStatus("Form is not configured yet — add your Formspree ID to the form action.", "error");
+    setStatus("Form is not configured yet. Add your Formspree ID to the form action.", "error");
     return;
   }
 
@@ -25,7 +25,7 @@ form.addEventListener("submit", async (event) => {
     if (response.ok) {
       form.reset();
       button.textContent = "Contact details captured";
-      setStatus("Thank you — a specialist will follow up shortly.", "success");
+      setStatus("Thank you! A specialist will follow up shortly.", "success");
       return;
     }
 
