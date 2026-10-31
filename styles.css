@@ -611,8 +611,8 @@ textarea {
 
 footer {
   display: flex;
-  justify-content: space-between;
-  gap: 24px;
+  flex-direction: column;
+  gap: 18px;
   padding: 32px 0 48px;
   color: rgba(233, 228, 219, 0.58);
   border-top: 1px solid var(--line);
@@ -620,6 +620,44 @@ footer {
   font-size: 0.78rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer-legal {
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  color: rgba(233, 228, 219, 0.45);
+}
+
+.footer-legal a {
+  color: rgba(233, 228, 219, 0.72);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer-legal a:hover {
+  color: var(--rescue);
+}
+
+.footer-sep {
+  margin: 0 10px;
+}
+
+.request-legal {
+  font-size: 0.9rem;
+  color: rgba(233, 228, 219, 0.58);
+}
+
+.request-legal a {
+  color: rgba(233, 228, 219, 0.85);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 @media (max-width: 900px) {
